@@ -88,6 +88,11 @@
 							"key": "email",
 							"value": "{{email}}",
 							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "test1234",
+							"type": "text"
 						}
 					],
 					"options": {
