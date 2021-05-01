@@ -61,7 +61,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"User creation was successful\", function () {",
-							"  pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);",
+							"  pm.expect(pm.response.code).to.be.oneOf([200, 201, 202,400]);",
 							"});",
 							"",
 							"pm.test(\"Confirm response message\", function () {",
